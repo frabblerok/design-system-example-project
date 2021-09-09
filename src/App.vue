@@ -6,6 +6,7 @@
         <TopBar />
         <Header />
         <Dashboard />
+        <Transactions />
     </div>
 </template>
 
@@ -13,13 +14,15 @@
 import TopBar from './components/TopBar.vue';
 import Header from './components/Header.vue';
 import Dashboard from './components/Dashboard.vue';
+import Transactions from './components/Transactions.vue';
 
 export default {
     name: "App",
     components: {
         TopBar,
         Header,
-        Dashboard
+        Dashboard,
+        Transactions
     },
 };
 </script>
