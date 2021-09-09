@@ -4,16 +4,19 @@
         <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
         <!-- Accounts header -->
         <TopBar />
+        <Header />
     </div>
 </template>
 
 <script>
 import TopBar from './components/TopBar.vue';
+import Header from './components/Header.vue';
 
 export default {
     name: "App",
     components: {
-        TopBar
+        TopBar,
+        Header
     },
 };
 </script>
